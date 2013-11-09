@@ -1,0 +1,125 @@
+#include "includes.h"
+HASH symbol;
+void CreatHashTable(HASH * symbol_ptr,size_t size)
+{
+	size_t i = 0;
+	symbol_ptr->hash_s = (HASH_HEAD *)malloc(size*sizeof(HASH_HEAD));
+	if(symbol_ptr->hash_s == NULL)
+    {
+        printf("hello world\n");
+        exit(-1);
+    }
+	symbol_ptr->size = size;
+	for(i = 0; i < size; i++)
+	{
+		(symbol_ptr->hash_s + i)->next = NULL;
+	}
+}
+int IsInHashTable(HASH symbol,char * keyname)
+{
+	unsigned int i = 0;
+	unsigned int count = 0;
+	for (i = 0; keyname[i] != '\0'; i++)
+	{
+		count = count * 7 + keyname[i]-'0';
+	}
+	int mod = count % symbol.size;
+	HASH_HEAD * name_at = symbol.hash_s + mod;
+	for(;name_at->next != NULL;name_at = name_at->next)
+	{
+		if (strcmp(keyname,name_at->next->item.name) == 0)
+		{
+			return 1;
+		}
+	}
+	return 0;
+}
+ITEM FindHashTable(HASH symbol,char * keyname)
+{
+	unsigned int i = 0;
+	unsigned int count = 0;
+	for (i = 0; keyname[i] != '\0'; i++)
+	{
+		count = count * 7 + keyname[i]-'0';
+	}
+	int mod = count % symbol.size;
+	HASH_HEAD * name_at = symbol.hash_s + mod;
+	for(;name_at->next != NULL;name_at = name_at->next)
+	{
+		if (strcmp(keyname,name_at->next->item.name) == 0)
+		{
+			return name_at->next->item;
+		}
+	}
+	printf("No matter how.It not in there.\n");
+	exit(HASH_NOT_FIND);
+}
+void InsertHashTable(HASH symbol,ITEM item)
+{
+	unsigned int i = 0;
+	unsigned int count = 0;
+	for (i = 0; item.name[i] != '\0'; i++)
+	{
+		count = count * 7 + item.name[i]-'0';
+	}
+	int mod = count % symbol.size;
+	HASH_HEAD * name_at = symbol.hash_s + mod;
+	for(;name_at->next != NULL;name_at = name_at->next)
+	{//已经存在，直接返回。
+		if (strcmp(item.name,name_at->next->item.name) == 0)
+		{
+			return;
+		}
+	}
+	HASH_HEAD * new_node = (HASH_HEAD *)malloc(sizeof(HASH_HEAD));
+	if (new_node == NULL)
+	{
+		printf("Sorry but it no memory now.\n");
+	}
+	new_node->item = item;
+	new_node->next = NULL;
+	name_at->next = new_node;
+}
+int ChangeHashTable(HASH symbol,ITEM item)
+{
+	unsigned int i = 0;
+	unsigned int count = 0;
+	for (i = 0; item.name[i] != '\0'; i++)
+	{
+		count = count * 7 + item.name[i]-'0';
+	}
+	int mod = count % symbol.size;
+	HASH_HEAD * name_at = symbol.hash_s + mod;
+	for(;name_at->next != NULL;name_at = name_at->next)
+	{//已经存在，直接返回。
+		if (strcmp(item.name,name_at->next->item.name) == 0)
+		{
+			name_at->next->item = item;
+			return 1;
+		}
+	}
+	printf("Error,Not find item\n");
+	return 0;
+}
+void PrintHashTable(HASH symbol)
+{
+    size_t i = 0;
+    for(i = 0; i < symbol.size; i++)
+    {
+        int flag = 0;
+        HASH_HEAD * tmp = symbol.hash_s+i;
+        while(tmp->next != NULL)
+        {
+            if(flag == 0)
+            {
+                printf("%d",i);
+                flag++;
+            }
+            ItemPrint(tmp->next->item);
+            tmp = tmp->next;
+            if(tmp->next == NULL)
+                printf("\n");
+        }
+
+    }
+}

@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1379219751 source:e:\c++ project\csuanfa\calc_next\calculate.cpp
+	"includes.h"
+
+1379182747 e:\c++ project\csuanfa\calc_next\includes.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Calculate.h"
+	"symbol_stack.h"
+	"hash_name.h"
+	"error.h"
+
+1379214680 e:\c++ project\csuanfa\calc_next\calculate.h
+
+1379182854 e:\c++ project\csuanfa\calc_next\symbol_stack.h
+
+1379214323 e:\c++ project\csuanfa\calc_next\hash_name.h
+
+1379218648 e:\c++ project\csuanfa\calc_next\error.h
+
+1379218659 source:e:\c++ project\csuanfa\calc_next\error.cpp
+	"includes.h"
+
+1379218535 source:e:\c++ project\csuanfa\calc_next\hash_name.cpp
+	"includes.h"
+
+1379216566 source:e:\c++ project\csuanfa\calc_next\language.cpp
+	"includes.h"
+
+1379185437 source:e:\c++ project\csuanfa\calc_next\symbol_stack.cpp
+	"includes.h"
+
