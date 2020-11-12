@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T09:10:22.187Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="13.9.7" etag="YiKk3d0RhHY3Dif83yUD" type="github"><diagram id="tISWkLbnozpQ00o5F6q_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-12T09:15:46.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="XXRhAQw3oje6VQw1pSnP" version="13.9.7" type="github">
+  <diagram id="tISWkLbnozpQ00o5F6q_" name="Page-1">
+    <mxGraphModel dx="946" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-3" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfskmEqv6rTxZ7fx8IyT-1" target="dfskmEqv6rTxZ7fx8IyT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfskmEqv6rTxZ7fx8IyT-1" target="dfskmEqv6rTxZ7fx8IyT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-9" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfskmEqv6rTxZ7fx8IyT-1" target="dfskmEqv6rTxZ7fx8IyT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-11" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfskmEqv6rTxZ7fx8IyT-1" target="dfskmEqv6rTxZ7fx8IyT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-13" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dfskmEqv6rTxZ7fx8IyT-1" target="dfskmEqv6rTxZ7fx8IyT-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-1" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;new_api&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-2" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;get_weixin_user_sns_info&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="460" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-4" value="set_user_avatar_from_wechat_avatar.py" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-8" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;WeixinResource&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="460" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-10" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;SubscribeCallback&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="460" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dfskmEqv6rTxZ7fx8IyT-12" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;qrcode.py&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="460" width="220" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
