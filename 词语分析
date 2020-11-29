@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-29T12:21:53.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Q4foFq-Hq2UYL5vT5XTF" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-29T12:24:33.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="oNbo-auY0iuRgMYHYhyu" version="13.9.7" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1261" dy="1614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -43,9 +43,6 @@
         <mxCell id="_05JYzlZTg9U_zaR5Cxb-1558" value="过程语系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1225" y="130" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="_05JYzlZTg9U_zaR5Cxb-1559" value="战略" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="320" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="_05JYzlZTg9U_zaR5Cxb-1560" value="策略" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="480" width="120" height="80" as="geometry" />
         </mxCell>
@@ -69,6 +66,15 @@
         </mxCell>
         <mxCell id="_05JYzlZTg9U_zaR5Cxb-1574" value="方法" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1430" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_05JYzlZTg9U_zaR5Cxb-1577" value="&lt;span style=&quot;color: rgb(54 , 54 , 52) ; font-size: 16px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;理想&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_05JYzlZTg9U_zaR5Cxb-1579" value="过程指导语系" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1245" y="-670" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_05JYzlZTg9U_zaR5Cxb-1580" value="战略" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="-630" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
